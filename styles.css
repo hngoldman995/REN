@@ -1,0 +1,294 @@
+body {
+  text-align: center;
+  color: white;
+}
+
+h1, h2, h3, h4 {
+  /* font-family: 'Sacramento', cursive; */
+  font-family: 'Comfortaa', cursive;
+  padding-top: 30px;
+}
+
+p {
+  padding-top: 20px;
+  font-family: 'Comfortaa', cursive;
+  font-size: 22px;
+  color: black;
+  text-align: center;
+  /* padding: 50px 150px; */
+}
+
+.middle-container p {
+  padding: 40px 150px;
+  color: white;
+}
+
+
+
+/* headings */
+.heading {
+  position: absolute;
+  top: 40px;
+  width: 100%;
+  left: 6px;
+  color: white;
+  margin-top: 30px;
+  font-size: 3rem;
+}
+
+.started {
+  font-family: 'Sacramento', cursive;
+  font-size: 6rem;
+  padding-top: 10px;
+  text-align: center;
+}
+
+.about {
+  font-family: 'comfortaa', cursive;
+  font-weight: bold;
+  font-size: 2rem;
+  padding: 20px;
+}
+
+
+
+/* Navbar */
+.container-fluid {
+  padding-top: 30px;
+  color: white;
+}
+
+.navbar-brand {
+  font-family: 'Abril Fatface', cursive;
+  padding-left: 20px;
+}
+
+.nav-item {
+  padding: 0 18px;
+}
+
+.nav-link {
+  font-size: 1.2rem;
+}
+
+
+
+/* Buttons */
+.insta {
+  background-color: transparent;
+  color: #FABEA7;
+  border-color: white;
+  height: 70px;
+  width: 180px;
+  cursor: pointer;
+  font-family: 'Bebas Neue', cursive;
+  font-size: 30px;
+  border-radius: 5%;
+}
+
+.booknow {
+  position: relative;
+  background-color: transparent;
+  color: black;
+  border-color: black;
+  height: 70px;
+  width: 180px;
+  cursor: pointer;
+  font-family: 'Bebas Neue', cursive;
+  font-size: 30px;
+  border-radius: 5%;
+  text-align: center;
+}
+
+.booknow:hover {
+  color: white;
+  border-color: white;
+}
+
+.submitbutton {
+  cursor: alias;
+  border-radius: 12px;
+  border: 2px solid #FABEA7;
+  padding: 6px 6px;
+  background-color: #FCECDD;
+}
+
+.submitbutton:hover {
+  background-color: #FABEA7;
+  color: white;
+}
+
+
+
+/* Images  */
+.logo {
+  height: 400px;
+  width: 400px;
+  padding-top: 53px;
+}
+
+.image {
+  position: relative;
+  width: 100%;
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+
+.ren {
+  /* padding-top: 20px; */
+  float: left;
+  padding-right: 50px;
+}
+
+
+
+/* Booking Section */
+.bookme {
+  background-image: url(./images/daisy.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  text-align: center;
+  padding: 100px 100px;
+  position: relative;
+}
+
+.getstarted {
+  padding-right: 600px;
+}
+
+
+
+
+/* Portfolio */
+/* About Me */
+.middle-container {
+  margin: 50px 50px;
+  padding-bottom: 320px;
+}
+
+
+
+/* Contact */
+.bottom-container {
+  padding-top: 30px;
+  padding-bottom: 50px;
+  background-color: #393E46;
+}
+
+.contact {
+  font-family: 'Comfortaa', cursive;
+  padding-bottom: 20px;
+  /* font-size: 2.5rem !important; */
+  font-weight: bold;
+}
+
+.submit {
+  color: white;
+  font-family: 'Comfortaa', cursive;
+  text-align: center;
+}
+
+
+
+/* Footer */
+.link-container {
+  background-color: #121212;
+  padding: 50px;
+  text-align: center;
+}
+
+.insta:hover {
+  color: pink;
+  border-color: pink;
+}
+
+.instafont {
+  color: white;
+}
+
+a:link {
+  color: white;
+  text-decoration: none;
+}
+
+a:visited {
+  color: #FCECDD;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #FABEA7;
+  text-decoration: none;
+}
+
+
+/* Media Query */
+@media (max-width: 975px) {
+  .bookme {
+    padding: 120px 100px;
+    /* text-align: center; */
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding: 30px 30px;
+  }
+
+  .booknow {
+    height: 40px;
+    width: 110px;
+    font-size: 20px;
+    bottom: -70px;
+    left: 7px;
+    color: black;
+    border-radius: 7%;
+  }
+
+  .getstarted {
+    margin-top: -25px;
+    margin-bottom: 60px;
+    margin-left: 55px;
+    padding-bottom: 10px;
+    display: block;
+  }
+
+  .get {
+    font-size: 1.8rem;
+    white-space: nowrap;
+    bottom: 60px;
+  }
+
+  .started {
+    position: absolute;
+    font-size: 4.2rem;
+    bottom: 65px;
+    left: 48px;
+    display: block;
+  }
+
+  .middle-container p{
+    font-size: 1.5rem;
+    padding: 0;
+  }
+
+  .middle-container {
+    padding-bottom: 5px;
+  }
+
+  .ren {
+    margin-bottom: 45px;
+  }
+}
+
+@media (max-width: 1202px) {
+  .middle-container {
+    padding-bottom: 60px;
+  }
+  .middle-container p {
+    font-size: 1.2rem;
+    padding: 0;
+  }
+  .ren {
+    float: none;
+     margin:  70px auto;
+
+    }
+}
